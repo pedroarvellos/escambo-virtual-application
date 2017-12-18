@@ -1,0 +1,31 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 12/10/2016, 12:56:57
+    Author     : Joao
+*/
+.info-title{
+    margin: 3% auto 3% auto;
+}
+
+.info-title h6{    
+    font-size: 18pt;
+    font-weight: 700;
+}
+
+.info-title span{
+    color: grey;
+}
+
+.formulario{
+    border: 1px solid  #e2e2e2;
+    padding: 2%;
+}
+
+.formulario h6{
+    font-size: 14pt;
+    font-weight: 700;
+}

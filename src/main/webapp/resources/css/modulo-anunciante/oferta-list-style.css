@@ -1,0 +1,29 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 12/10/2016, 13:18:49
+    Author     : Joao
+*/
+
+.ofertas h5{
+    font-weight: 700;
+    margin-top: 3%;
+}
+
+.oferta{
+    border: 1px solid #e2e2e2;
+    padding: 2% 3% 0 3%;
+}
+
+.card-content span{
+    font-size: 14pt;
+    font-weight: 700;
+}
+
+.card-content #teste{
+    margin-top: 5%;
+}
+

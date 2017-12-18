@@ -1,0 +1,21 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 13/10/2016, 10:14:58
+    Author     : Rafael-pc
+*/
+
+.formulario{
+    border: 1px solid #e2e2e2;
+    margin: 2% auto 2% auto;
+    padding: 1% 4% 1% 4%;
+}
+
+.card-title{
+    font-size: 20pt;
+    font-weight: 700;
+    text-transform: uppercase;
+}

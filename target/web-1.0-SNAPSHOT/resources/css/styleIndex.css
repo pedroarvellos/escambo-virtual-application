@@ -1,0 +1,287 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 20/07/2016, 16:27:29
+    Author     : Joao
+*/
+
+.bodyBackground {
+    /*background-color: #e0e0e0;*/
+    padding-bottom: 15px;
+}
+
+.bodyFont{
+    font-family: 'Montserrat', sans-serif;
+}
+
+#formPesquisa {
+    position: absolute;
+    width: 500px;
+    height: 47px;
+    left: 50%;
+    margin: -75px 0 0 -250px;    
+    top: 75%;
+    background-color: white;
+    border-radius: 7px;
+}
+
+.login{
+    font-family: 'Roboto', sans-serif;
+}
+
+.login h5{
+    color: black;
+}
+
+::-webkit-input-placeholder {
+    color: grey;
+}
+
+::-moz-placeholder {
+    color: grey;
+}
+
+::-ms-input-placeholder {
+    color: grey;
+}
+
+#lupa {
+    padding-top: 10px;
+    padding-right: 10px;
+    color: black;
+}
+
+#btn-pesquisar {
+    position: absolute;
+    top: 57%;
+    left: 45%;
+}
+
+#navbarTop {
+    background-color: #363636;
+}
+
+.btn-pesquisar{
+    background-color: #363636;
+}
+
+#txt-cadastrese {
+    position: relative;
+    margin-top: 130px;
+    font-weight: bold;
+}
+
+#txt-cadastrese a {
+    color: white;
+    font-size: 15pt;
+    text-decoration: underline;
+}
+
+#txt-cadastrese h6 {
+    font-size: 14pt;
+    font-weight: 700;
+}
+
+#listAnuncios {    
+    /*background-color: white;*/    
+    padding: 5px 30px 1px 30px;
+    border-radius: 5px;
+}
+
+.titulo{
+    white-space: pre;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;    
+    font-weight: 900;
+}
+
+.titulo1{
+    background-color: white;
+    padding-top: 5%;
+    color: #629b34;
+    font-weight: 900;
+    padding-top: 20px;
+    /*width: 100%;*/
+}
+
+.sobre{
+    background-color: #f2f2f2;
+    padding-top: 3%;
+    margin-top: -5%;       
+}
+
+.sobre p{
+    text-align: justify;
+    color: #818286;
+}
+
+.box1{    
+    /*background-color: blue;*/    
+    height: 560px;
+    width: 33%;    
+}
+
+.box2{    
+    /*background-color: white;*/
+    height: 560px;
+    width: 33%;
+}
+
+.box3{    
+    /*background-color: blue;*/
+    height: 560px;
+    width: 33%;
+}
+
+.box4{
+    overflow: hidden;
+    /*width: 16%;*/
+    height: 200px;    
+}
+
+.box5{
+    /*width: 16%;*/
+    height: 200px;
+    background-color: #6eb0e0;
+}
+
+.box6{
+    /*width: 16%;*/
+    height: 200px;    
+}
+
+.box7{
+    /*width: 16%;*/
+    height: 200px;
+    background-color: #ffc80b;
+}
+
+.box8{
+    /*width: 16%;*/
+    height: 200px;    
+}
+
+.box9{
+    /*width: 16%;*/
+    height: 200px;
+    background-color: #629b34;
+}
+
+.developers{
+    background-color: white;
+    margin-bottom: 5%;
+    padding-bottom: 5%;
+}
+
+.developers p, h5{
+    color: #ffffff;
+}
+
+.btn-entrar{
+    background-color: #363636;
+    border: 2px solid white;
+}
+
+.img{
+    max-width:250px;
+    max-height:200px;
+    width: auto;
+    height: auto;
+    margin-right: 10px;
+}
+
+.img-logo{
+    padding-top: 2%;
+}
+
+.img-login{
+    padding-top: 10%;
+}
+
+.nomes{
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 50%;
+    font-size: 15pt;
+    margin-left: 10%;
+
+}
+
+#linha{
+    color: #58595b;
+    background-color: #58595b;
+    height: 13px; 
+    width: 20%;
+    border: 0px;
+    margin-bottom: 10%;   
+    margin-left: 0;
+}
+
+.footer{
+    background-color: #7dc838;
+    height: 300px;
+}
+
+
+.painelAnuncios li:hover {       
+    -webkit-transform: translateY(-5px);
+    transform: translateY(-5px);    
+}
+
+.parallax-container{
+    height: 550px;
+}
+
+/* aplica somente no máximo de 320px */
+@media screen and (max-width: 470px) {
+    #formPesquisa {
+        position: absolute;
+        width: 300px;
+        height: 47px;
+        left: 82%;
+        margin: -90px 0 0 -250px;    
+        top: 75%;
+        background-color: white;
+        border-radius: 7px;
+    }
+
+    .img-logo{
+        width: 100%;
+        height: 100%;
+        /*margin-bottom: -10%;*/
+        margin-top: 8%;
+    }
+
+    #txt-cadastrese {
+        position: relative;
+        margin-top: 190px;
+        font-weight: bold;
+    }
+}
+
+/* aplica somente no mínimo de 1920px */
+@media screen and (min-width: 1920px) {
+    .parallax-container{
+        height: 700px;
+    }
+}
+
+.card .card-image {
+    width: 100%;
+    height: 50%;
+}
+
+.card .card-image img {
+    height: 100%;
+}
+
+.card-title{
+    color: black;
+    margin-top: -15px;
+    line-height: 100%;
+    font-size: 17px !important;
+    font-weight: bold !important;
+}

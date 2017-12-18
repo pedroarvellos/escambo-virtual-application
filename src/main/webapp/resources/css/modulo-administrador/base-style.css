@@ -1,0 +1,57 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 11/10/2016, 16:57:16
+    Author     : Joao
+*/
+
+.navTop{
+    height: 90px;
+    background-color: #7dc838;
+    box-shadow: none;
+}
+
+@media screen and (max-width: 480px) {
+    .navTop{
+    height: 120px;
+    background-color: #7dc838;
+    box-shadow: none;
+}
+}
+
+.tituloPage{
+    font-size: 28pt;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    padding-top: 1%;
+    font-weight: 700;
+}
+
+.nav-breadcrumb{
+    background-color: #fff;    
+    height: 60px;
+}
+
+.link-anterior{
+    color: #a0a0a0 !important;
+    font-weight: 700;   
+    font-size: 16pt;     
+}
+
+.link-ativo{
+    color: black !important;
+    font-weight: 700;
+    font-size: 16pt;    
+}
+
+.links{
+    margin-top: 2%;
+}
+
+.linha{
+    background-color: #e2e2e2;
+    height: 1px;    
+}

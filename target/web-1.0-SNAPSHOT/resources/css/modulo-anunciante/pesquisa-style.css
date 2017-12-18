@@ -1,0 +1,71 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 12/10/2016, 11:07:41
+    Author     : Joao
+*/
+
+.formulario h5{
+    font-weight: 700;
+    margin: 3% auto 2% 1%;
+}
+
+#pesquisar{
+    border: 1px solid #e2e2e2;
+    border-radius: 7px;
+    background-color: #f3f3f3;
+}
+
+.btn-pesquisar{
+    height: 46px;
+    margin-top: 15px;
+    margin-left: 13px;
+}
+
+.resultados h5{
+    margin-bottom: -1%;
+}
+
+.item-cadastro{
+    margin-right: 5%;
+}
+
+.card-image img{
+    margin-left: 5%;
+    margin-bottom: 7%;
+}
+
+.card-content .item-nome{
+    font-weight: 600;
+    color: black
+}
+
+.resultados{
+    border: 1px solid #e2e2e2;
+    padding: 1% 2% 0 2%;
+    margin-bottom: 2%;
+}
+
+@media screen and (max-width: 1024px) {
+    .card-content .item-nome{
+        margin-left: 35%;
+    }
+    
+    .card-content .divider{
+        margin-left: 5%;
+    }
+    
+    .card-content .descricao{
+        margin-left: 5%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .card-content .item-nome{
+        margin-left: 5%;
+    }
+}
+

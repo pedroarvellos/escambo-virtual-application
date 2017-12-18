@@ -1,0 +1,23 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 13/10/2016, 08:37:17
+    Author     : Joao
+*/
+
+.tabela{
+    border: 1px solid #e2e2e2;
+    padding: 1% 3% 1% 3%;
+    margin: 2% auto 2% auto;
+}
+
+.titulo{
+    font-weight: 700;
+}
+
+.btn-cadastrar{
+    margin-top: 1%;
+}
