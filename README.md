@@ -5,6 +5,7 @@ This project was designed and developed by Pedro Arvellos, Joao Pedro and José 
 The main technologies of this projects are: 
 
 - This application uses the build management tool Maven and has its back-end developed in Java (as a back-end framework it was used Spring MVC);
+- JSP;
 - Angular 1; 
 - HTML 5, CSS 3;
 - Materialize.
