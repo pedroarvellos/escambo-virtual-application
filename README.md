@@ -16,5 +16,3 @@ The main technologies of this projects are:
 - Take the Database Creation SCRIPT in the folder SQL (there're also some other scripts), and create the Database on Postgres;
 - Construct it with its dependencies;
 - Run it;
-- Access the address: <context>/swagger-ui.html;
-- Consume the documented REST based endpoints with Postman or a similar tool. 
